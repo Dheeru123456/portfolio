@@ -34,37 +34,37 @@ function App() {
     {
       title: "AIW",
       description: "Implemented Video KYC, Video Calling, and SAMD document modules.",
-      image: "/images/aiwImg.png",
+      image: "images/aiwImg.png",
       color: "from-indigo-500 to-purple-500"
     },
     {
       title: "Digital Onboarding Portal",
       description: "Independent loan process app with onboarding and document features.",
-      image: "/images/digitalImg.png",
+      image: "images/digitalImg.png",
       color: "from-green-400 to-blue-500"
     },
     {
       title: "Delvium",
       description: "Due diligence platform built with Vue.js for M&A evaluations.",
-      image: "/images/delviumImg.png",
+      image: "images/delviumImg.png",
       color: "from-pink-500 to-orange-500"
     },
     {
       title: "Emiza",
       description: "Logistics and warehousing system for inventory and shipping.",
-      image: "/images/emizaImg.png",
+      image: "images/emizaImg.png",
       color: "from-yellow-400 to-red-500"
     },
     {
       title: "HRMS – CollectivWork",
       description: "Worked on Leave, Attendance, Offboarding, PMS and more.",
-      image: "/images/hrmsImg.jpg",
+      image: "images/hrmsImg.jpg",
       color: "from-blue-400 to-indigo-500"
     },
     {
       title: "CRM System",
       description: "Client relationships and lead management with full activity tracking.",
-      image: "/images/crmImg.jpg",
+      image: "images/crmImg.jpg",
       color: "from-emerald-400 to-teal-500"
     },
   ];
@@ -86,7 +86,7 @@ function App() {
       </button>
 
       <section className="flex flex-col items-center justify-center h-screen text-center">
-        <img src='/images/dheerajImg.jpg' alt="Dheeraj Joshi" className="w-32 h-32 rounded-full mb-6 border-4 border-white shadow-lg object-cover" />
+        <img src='images/dheerajImg.jpg' alt="Dheeraj Joshi" className="w-32 h-32 rounded-full mb-6 border-4 border-white shadow-lg object-cover" />
         <motion.h1
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
